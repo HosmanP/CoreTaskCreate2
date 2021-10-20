@@ -2,6 +2,6 @@ package jm.task.core.jdbc;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Хелло ворлд епта тест =)");
+        System.out.println("Хелло ворлд тест =)");
     }
 }
