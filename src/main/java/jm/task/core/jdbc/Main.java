@@ -1,9 +1,7 @@
 package jm.task.core.jdbc;
 
-import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserServiceImpl;
-import jm.task.core.jdbc.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +18,6 @@ public class Main {
         users = userServiceImpl.getAllUsers();
         System.out.println(users);
         userServiceImpl.cleanUsersTable();
-        userServiceImpl.dropUsersTable();
+        userServiceImpl.getAllUsers();
     }
 }
